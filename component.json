@@ -1,0 +1,6 @@
+{
+  "name": "feature-block",
+  "version": "0.1.0",
+  "description": "Major features banner block",
+  "styles": ["index.scss"]
+}

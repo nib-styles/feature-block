@@ -1,0 +1,40 @@
+.feature-block {
+  @extend .block-2;
+  padding: spacing(4) 0 spacing(6);
+  color: #fff;
+
+  .feature-block__body {
+    @include clear-floats;
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .feature-block__title {
+    @extend .title-6;
+    padding-bottom: spacing(4);
+    color: #fff;
+    text-align: center;
+  }
+
+  .feature-block__item {
+    @include border-box;
+    padding: 0 spacing(1);
+    width: 25%;
+    float: left;
+  }
+
+  .feature-block__sub-title {
+    @extend .title-8;
+    margin-top: spacing(4);
+    margin-bottom: spacing(2);
+    color: #fff;
+    text-align: center;
+  }
+
+  .feature-block__content {
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
