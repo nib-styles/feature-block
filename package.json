@@ -1,0 +1,10 @@
+{
+  "name": "@nib-styles/feature-block",
+  "version": "0.2.0",
+  "description": "Major features banner block",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/feature-block.git"
+  }
+}
